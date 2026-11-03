@@ -46,12 +46,12 @@ plugins:
     allowDirectPlaylistIds: true
     oauth:
       enabled: true
-      skipInitialization: false
+      refreshToken: "1//0goErnl6fN_ngCgYIARAAGBASNwF-L9IrmoluomwP6aDqasgVID6TpMB0WMVM0yIw_qqPdxVXUOPFTQHeK2TXGNR9Uc-n07ctG8I"
+      skipInitialization: true
     clients:
       - TV
       - ANDROID_VR
       - ANDROID_MUSIC
-      - WEB_REMIX
       - WEB
 lavasrc:
     providers:
