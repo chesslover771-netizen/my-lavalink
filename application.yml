@@ -48,10 +48,10 @@ plugins:
       enabled: true
       skipInitialization: false
     clients:
-      - TVHTML5EMBEDDED
+      - TV
       - ANDROID_VR
       - ANDROID_MUSIC
-      - MUSIC
+      - WEB_REMIX
       - WEB
 lavasrc:
     providers:
