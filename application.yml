@@ -49,16 +49,16 @@ plugins:
       refreshToken: "1//0goErnl6fN_ngCgYIARAAGBASNwF-L9IrmoluomwP6aDqasgVID6TpMB0WMVM0yIw_qqPdxVXUOPFTQHeK2TXGNR9Uc-n07ctG8I"
       skipInitialization: true
     clients:
-      - TVHTML5
+      - TV
       - ANDROID_VR
       - ANDROID_MUSIC
       - WEB
   lavasrc:
     providers:
       - "scsearch:%QUERY%"
+      - "scsearch:\"%ISRC%\""
       - "ytsearch:\"%ISRC%\""
       - "ytsearch:%QUERY%"
-      - "ytmsearch:%QUERY%"
     sources:
       spotify: true
       applemusic: true
