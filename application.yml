@@ -50,12 +50,12 @@ plugins:
       - ANDROID_MUSIC
       - MUSIC
       - WEB
-  lavasrc:
+lavasrc:
     providers:
+      - "scsearch:%QUERY%"
+      - "scsearch:\"%ISRC%\""
       - "ytsearch:\"%ISRC%\""
       - "ytmsearch:%QUERY%"
-      - "ytsearch:%QUERY%"
-      - "scsearch:%QUERY%"
     sources:
       spotify: true
       applemusic: true
