@@ -50,14 +50,15 @@ plugins:
       skipInitialization: true
     clients:
       - TV
+      - MUSIC
       - ANDROID_VR
       - ANDROID_MUSIC
       - WEB
-lavasrc:
+  lavasrc:
     providers:
-      - "scsearch:%QUERY%"
-      - "scsearch:\"%ISRC%\""
       - "ytsearch:\"%ISRC%\""
+      - "ytsearch:%QUERY%"
+      - "scsearch:%QUERY%"
       - "ytmsearch:%QUERY%"
     sources:
       spotify: true
