@@ -44,6 +44,9 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
+    oauth:
+      enabled: true
+      skipInitialization: false
     clients:
       - TVHTML5EMBEDDED
       - ANDROID_VR
